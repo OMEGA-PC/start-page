@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>شاشة البداية</title>
+    <title>صفحة البداية</title>
     <style>
         body {
             display: flex;
@@ -15,18 +15,18 @@
             flex-direction: column;
         }
         #logo {
-            display: block;
-            width: 200px;
+            width: 300px; /* تعديل الحجم حسب ما تريده */
             height: auto;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <!-- هنا يتم عرض اللوجو -->
+    <!-- عرض صورة اللوجو -->
     <img id="logo" src="https://drive.google.com/uc?export=view&id=1DrM0GHssDIFJh9zE-2bPsgyx5FaqfCuc" alt="لوجو الشركة">
     
+    <!-- الانتقال إلى رابط PDF بعد 3 ثواني -->
     <script>
-        // بعد 3 ثواني، سيتم تحويل المستخدم إلى رابط الـ PDF
         setTimeout(function(){
             window.location.href = "https://drive.google.com/uc?export=download&id=1xWNPTxC736URFou6r3tk046u6lmXE9Ir"; // رابط الـ PDF
         }, 3000); // 3 ثواني
